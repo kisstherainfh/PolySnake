@@ -13,7 +13,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on Cityscapes
 
-1. Download the pretrained model [here](https://drive.google.com/drive/folders/16d-DtL3KKmu5u10uzbH_xg8oInrk0bSZ?usp=share_link) and put it to `$ROOT/data/model/rcnn_snake/cityscapes/`.
+1. Download the pretrained model [here](https://drive.google.com/file/d/1RMS9eYafhF4AJV2qZsYhZjekB1Z8jXG7/view?usp=share_link) and put it to `$ROOT/data/model/rcnn_snake/cityscapes/`.
 2. Test:
     ```
     # use coco evaluator
@@ -40,7 +40,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on Sbd
 
-1. Download the pretrained model [here](https://drive.google.com/drive/folders/1afn5UJPrNiPpZjcHLAGiizlN8MihW_dY?usp=share_link) and put it to `$ROOT/data/model/snake/sbd/`.
+1. Download the pretrained model [here](https://drive.google.com/file/d/1LAHF228PNiKYaMUTkIoc7ztzI9SqTjVP/view?usp=share_link) and put it to `$ROOT/data/model/snake/sbd/`.
 2. Test:
     ```
     python run.py --type evaluate --cfg_file configs/sbd_snake.yaml test.dataset SbdVal
